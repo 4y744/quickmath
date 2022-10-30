@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+    color: #3F3F3F;
+    user-select: none;
+}
+
+#start{
+    display: none;
+}
+
+#problems{
+    display: none;
+}
+
+#end{
+    display: none;
+}
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1, h2{
+    font-family: 'Silkscreen';
+    text-align: center;
+
+    margin: 0.3rem;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.btn{
+    margin: 0.5rem;
+    width: 150px;
+    height: 30px;
+
+    background-color: white;
+    color: #3F3F3F;
+    font-size: 20px;
+
+    border: none;
+    outline: 2px solid #3F3F3F;
+
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px #3F3F3F;
+}
+
+.btn:active{
+    padding-top: 0.2rem;
+}
+
+.input{
+    margin: 0.5rem;
+    border: none;
+    outline: 2px solid #3F3F3F;
+    
+    background-color: white;
+    color: #3F3F3F;
+    
+    font-size: 20px;
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
+
+    height: 30px;
+    width: 200px;
+}
+
+.input:active{
+    border-radius: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}

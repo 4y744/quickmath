@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Math</title>
+    <script src="/app.js" defer></script>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="wrapper" id="start">
+        <h1 class="title">Quick Math</h1>
+        <button class="btn" onclick="start()">Start</button>
+    </div>
+    <div class="wrapper" id="problems">
+        <h1 class="title">Quick Math</h1>
+        <h2 id="problem">1 + 1</h2>
+        <input class="input" type="number" id="input" placeholder="Enter asnwer">
+        <button class="btn" onclick="submit()">Submit</button>
+    </div>
+    <div class="wrapper" id="end">
+        <h1 class="title">Quick Math</h1>
+        <h2 class="end-header" id="correctAnswers"></h2>
+        <h2 class="end-header" id="time"></h2>
+        <button class="btn" onclick="_continue()">Continue</button>
+    </div>
+</body>
+</html>
